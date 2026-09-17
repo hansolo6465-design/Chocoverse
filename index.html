@@ -1,0 +1,200 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AXIOM — Mobile, Watch, TV &amp; Electronics</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== Fixed nav / section index ===== -->
+  <header class="topbar">
+    <a href="#top" class="wordmark">AXIOM</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="section-index" id="sectionIndex" aria-label="Page sections">
+    <a href="#hero" data-target="hero"><span class="dot"></span><span class="idx-label">Start</span></a>
+    <a href="#mobile" data-target="mobile"><span class="dot"></span><span class="idx-label">Mobile</span></a>
+    <a href="#watch" data-target="watch"><span class="dot"></span><span class="idx-label">Watch</span></a>
+    <a href="#tv" data-target="tv"><span class="dot"></span><span class="idx-label">TV</span></a>
+    <a href="#electronics" data-target="electronics"><span class="dot"></span><span class="idx-label">Electronics</span></a>
+    <a href="#get" data-target="get"><span class="dot"></span><span class="idx-label">Get one</span></a>
+  </nav>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="panel hero" id="hero" data-section="hero">
+      <div class="hero-copy">
+        <p class="kicker">One system. Every screen you own.</p>
+        <h1>Built around how<br>you actually move.</h1>
+        <p class="lede">AXIOM makes the phone, the watch and the TV that sit at the center of your day —
+        designed as one connected system instead of three separate purchases.</p>
+        <a class="cta" href="#mobile">See the lineup</a>
+      </div>
+      <div class="stage" id="heroStage" aria-hidden="true">
+        <div class="device phone" id="heroPhone">
+          <div class="device-frame">
+            <div class="notch"></div>
+            <div class="screen">
+              <div class="screen-glow"></div>
+            </div>
+            <div class="btn side-btn"></div>
+            <div class="btn vol-btn"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MOBILE ===== -->
+    <section class="panel product" id="mobile" data-section="mobile">
+      <div class="stage" data-tilt>
+        <div class="device phone" id="mobileDevice">
+          <div class="device-frame">
+            <div class="notch"></div>
+            <div class="screen">
+              <div class="screen-grid"></div>
+            </div>
+            <div class="btn side-btn"></div>
+            <div class="btn vol-btn"></div>
+          </div>
+        </div>
+      </div>
+      <div class="copy">
+        <p class="kicker">Mobile</p>
+        <h2>AXIOM Phone</h2>
+        <p class="lede">A 6.4" display that adapts its refresh rate to what's on screen, and a camera system
+        tuned for low light rather than daylight showpieces.</p>
+        <ul class="spec-list">
+          <li><span>Display</span><span class="spec">6.4" · 120Hz OLED</span></li>
+          <li><span>Battery</span><span class="spec">5000 mAh</span></li>
+          <li><span>Charging</span><span class="spec">65W wired / 30W wireless</span></li>
+          <li><span>Storage</span><span class="spec">256GB – 1TB</span></li>
+        </ul>
+        <a class="cta ghost" href="#get">Check pricing</a>
+      </div>
+    </section>
+
+    <!-- ===== WATCH ===== -->
+    <section class="panel product reverse" id="watch" data-section="watch">
+      <div class="stage" data-tilt>
+        <div class="device watch" id="watchDevice">
+          <div class="watch-band top"></div>
+          <div class="watch-case">
+            <div class="watch-face">
+              <div class="watch-hand hour"></div>
+              <div class="watch-hand minute"></div>
+            </div>
+            <div class="crown"></div>
+          </div>
+          <div class="watch-band bottom"></div>
+        </div>
+      </div>
+      <div class="copy">
+        <p class="kicker">Watch</p>
+        <h2>AXIOM Watch</h2>
+        <p class="lede">Tracks sleep, heart rhythm and effort without asking you to open an app —
+        the case is titanium, the battery lasts long enough that you'll forget it's rechargeable.</p>
+        <ul class="spec-list">
+          <li><span>Case</span><span class="spec">42mm / 46mm titanium</span></li>
+          <li><span>Battery life</span><span class="spec">11 days</span></li>
+          <li><span>Water rating</span><span class="spec">10 ATM</span></li>
+          <li><span>Sensors</span><span class="spec">SpO2 · ECG · Temp</span></li>
+        </ul>
+        <a class="cta ghost" href="#get">Check pricing</a>
+      </div>
+    </section>
+
+    <!-- ===== TV ===== -->
+    <section class="panel product" id="tv" data-section="tv">
+      <div class="stage" data-tilt>
+        <div class="device tv" id="tvDevice">
+          <div class="tv-screen">
+            <div class="tv-content"></div>
+          </div>
+          <div class="tv-stand"></div>
+        </div>
+      </div>
+      <div class="copy">
+        <p class="kicker">TV</p>
+        <h2>AXIOM Panel</h2>
+        <p class="lede">A 65" set that starts a scene where your phone left it, and turns itself off
+        the moment the room does the same.</p>
+        <ul class="spec-list">
+          <li><span>Screen</span><span class="spec">65" · 4K · 120Hz</span></li>
+          <li><span>Sound</span><span class="spec">6-speaker array</span></li>
+          <li><span>Inputs</span><span class="spec">4× HDMI 2.1</span></li>
+          <li><span>Handoff</span><span class="spec">Phone → TV in &lt;1s</span></li>
+        </ul>
+        <a class="cta ghost" href="#get">Check pricing</a>
+      </div>
+    </section>
+
+    <!-- ===== ELECTRONICS GRID ===== -->
+    <section class="panel electronics" id="electronics" data-section="electronics">
+      <div class="section-head">
+        <p class="kicker">Electronics</p>
+        <h2>Everything in between.</h2>
+      </div>
+      <div class="tile-grid">
+        <article class="tile" data-tilt-card>
+          <div class="tile-visual buds">
+            <div class="bud left"></div>
+            <div class="bud right"></div>
+          </div>
+          <h3>Earbuds</h3>
+          <p>Adaptive noise cancelling, 8 hours a charge.</p>
+        </article>
+        <article class="tile" data-tilt-card>
+          <div class="tile-visual tablet">
+            <div class="tablet-screen"></div>
+          </div>
+          <h3>Tablet</h3>
+          <p>11" canvas that doubles as a second monitor.</p>
+        </article>
+        <article class="tile" data-tilt-card>
+          <div class="tile-visual charger">
+            <div class="charger-coil"></div>
+          </div>
+          <h3>Charging Pad</h3>
+          <p>Three devices, one pad, no cable clutter.</p>
+        </article>
+        <article class="tile" data-tilt-card>
+          <div class="tile-visual speaker">
+            <div class="speaker-ring r1"></div>
+            <div class="speaker-ring r2"></div>
+          </div>
+          <h3>Home Speaker</h3>
+          <p>Fills a room without needing to be loud.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== GET ONE / CTA ===== -->
+    <section class="panel closer" id="get" data-section="get">
+      <p class="kicker">Get one</p>
+      <h2>Pick a device, keep the system.</h2>
+      <p class="lede">Every AXIOM product talks to the others out of the box — no separate app,
+      no separate account, no extra hub to buy.</p>
+      <div class="closer-actions">
+        <a class="cta" href="#mobile">Compare devices</a>
+        <a class="cta ghost" href="#hero">Back to top</a>
+      </div>
+      <footer class="foot">
+        <span>© <span id="year"></span> AXIOM Electronics</span>
+        <span>Placeholder brand — swap freely</span>
+      </footer>
+    </section>
+
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
